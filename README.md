@@ -178,7 +178,6 @@ Naive Bayes with bag-of-words or TF-IDF often generalizes better for short headl
   <tr><td><code>Training Value</code></td><td>Validation Value</td></tr>
   <tr><td><code>0.88</code></td><td>0.87</td></tr>
 </table>
-![image_alt](https://github.com/IshuDhana/Project_2_G5_Natural_Langugae_Processing/blob/fb867b9b5681ff13129ef2e18b49cabc6dc47124/screenshots/Embedding_logisticalRegretion.png)
 
 
 ---
