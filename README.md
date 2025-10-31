@@ -1,16 +1,14 @@
 # 🧠 Fake vs Real News Classifier — NLP Project
 
-**Overview :**  
-This repository contains a text classification pipeline to detect fake vs real news headlines. 
-This project focuses on detecting fake vs real news headlines using Natural Language Processing (NLP) and machine learning techniques.
-The project includes detailed evaluation plots (confusion matrices and F1 bar charts) and a cleanly formatted results table summarizing model performance.
-It builds a clean, organized pipeline for text preprocessing, feature extraction, model training, and evaluation — all implemented in Python with scikit-learn.
-The project trains four models and automatically selects the best model for final predictions.
-It includes preprocessing, vectorization, model training, evaluation (accuracy, F1, confusion matrices), and a final CSV of predictions.
+## �� Executive Summary
+This project focuses on **text classification** using **Natural Language Processing (NLP)** techniques to detect whether a news headline is **real or fake**.
+The dataset contains news articles labeled according to their authenticity.
+The objective was to build a model capable of **accurately distinguishing between true and false news**.
+After testing multiple models, the **best-performing approach** combined **TF-IDF Vectorization** with a **Naive Bayes classifier**, achieving a **validation accuracy of 93%**.
 
 ---
 
-# Procedure for model creation :
+## �� Procedure for model creation :
 
  <li>Loading the training dataset "training_data_lowercase.csv"</li>
  <li>Preprocesses text (tokenization, stopword removal, stemming, lemmatization)
@@ -139,8 +137,8 @@ Validation accuracy 93%, F1-score showed strong class balance.
 
 <h5> What didn’t: </h5> 
 
-<li> Random Forest required heavy computation without clear performance gain. </li>
-<li> Over-cleaning (aggressive stemming) sometimes removed key semantic cues. </li>
+<li> Random Forest required heavy computation and it was overfitting. </li>
+<li> Over-cleaning (aggressive stemming) sometimes removed key semantic cues. (u.s)</li>
 
 <h5> Key Learnings: </h5>
 <li> Simplicity often wins in text classification tasks. </li>
@@ -183,9 +181,9 @@ Naive Bayes with bag-of-words or TF-IDF often generalizes better for short headl
 
 <h2> Team Members </h2>
 <li> Cristina Insignares </li>
-<li> Gulmehak Dutta. </li>
+<li> Gulmehak Dutta </li>
 <li> Iswarya Malayamaan </li>
-<li> Tiago Borges. </li>
+<li> Tiago Borges </li>
 
 
 
