@@ -41,11 +41,6 @@ It includes preprocessing, vectorization, model training, evaluation (accuracy, 
 
 ---
 
-## Repository structure (suggested)
-
-
-> **Where to put your graphs**: save all plots (confusion matrices, class-wise F1 bar plots, frequency chart) in `outputs/images/`. Use file names like `confmat_m1.png`, `f1_m1.png` for Model 1, `confmat_m2.png` for Model 2, etc. Add them to the README using Markdown image links (examples below).
-
 ---
 
 <!-- Badges (images linked) -->
